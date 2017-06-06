@@ -1,0 +1,30 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "An app that allows for web scraping using Node.js and MongoDB among other technologies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkhalam/scraper.git"
+  },
+  "author": "David Khalameyzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkhalam/scraper/issues"
+  },
+  "homepage": "https://github.com/dkhalam/scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mongojs": "^2.4.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {}
+}
